@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Training Notes — Sataphone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="nav-inner">
+      <a href="index.html" class="logo"><span class="paw">●</span> Sataphone</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Portfolio</a></li>
+          <li><a href="blog.html" class="active">Dog Blog</a></li>
+          <li><a href="booking.html">Booking</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-menu" aria-label="Mobile navigation">
+    <a href="index.html">Portfolio</a>
+    <a href="blog.html">Dog Blog</a>
+    <a href="booking.html">Booking</a>
+  </nav>
+
+  <main>
+    <section class="hero" style="padding-bottom: 24px;">
+      <div class="container">
+        <p class="eyebrow">Free-topic page</p>
+        <h1>Dog Training Notes</h1>
+        <p class="hero-tagline">
+          Short, practical notes from training my own dog — filed by topic
+          so you can jump straight to what you need.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+
+        <!-- Tag filter bar -->
+        <div class="filter-bar" role="tablist" aria-label="Filter posts by topic">
+          <button class="filter-chip is-active" data-tag="all">All Posts</button>
+          <button class="filter-chip" data-tag="puppy">Puppy Basics</button>
+          <button class="filter-chip" data-tag="behavior">Behavior</button>
+          <button class="filter-chip" data-tag="health">Health</button>
+          <button class="filter-chip" data-tag="gear">Gear</button>
+        </div>
+
+        <div class="blog-grid">
+
+          <article class="blog-card" data-tag="puppy">
+            <div class="blog-card-thumb">🐾</div>
+            <div class="blog-card-body">
+              <span class="tag-label">Puppy Basics</span>
+              <h3>Crate Training in the First Week</h3>
+              <p>How to make the crate feel like a den instead of a cage,
+              with a schedule that survives the first few nights.</p>
+            </div>
+          </article>
+
+          <article class="blog-card" data-tag="behavior">
+            <div class="blog-card-thumb">🎯</div>
+            <div class="blog-card-body">
+              <span class="tag-label">Behavior</span>
+              <h3>Why Positive Reinforcement Sticks</h3>
+              <p>Notes on timing, marker words, and why "no" alone rarely
+              changes a repeated behavior.</p>
+            </div>
+          </article>
+
+          <article class="blog-card" data-tag="gear">
+            <div class="blog-card-thumb">🦮</div>
+            <div class="blog-card-body">
+              <span class="tag-label">Gear</span>
+              <h3>Choosing a Leash for Loose-Leash Walking</h3>
+              <p>Length, material, and clip type all change how a walk
+              actually feels — a quick comparison.</p>
+            </div>
+          </article>
+
+          <article class="blog-card" data-tag="puppy">
+            <div class="blog-card-thumb">👶</div>
+            <div class="blog-card-body">
+              <span class="tag-label">Puppy Basics</span>
+              <h3>Socialization Windows That Matter</h3>
+              <p>What to expose a young puppy to, and why the first few
+              months carry more weight than later ones.</p>
+            </div>
+          </article>
+
+          <article class="blog-card" data-tag="health">
+            <div class="blog-card-thumb">🩺</div>
+            <div class="blog-card-body">
+              <span class="tag-label">Health</span>
+              <h3>Reading Early Signs of Overtraining</h3>
+              <p>Signals that a training session has run too long, and how
+              to end on a calmer note.</p>
+            </div>
+          </article>
+
+          <article class="blog-card" data-tag="behavior">
+            <div class="blog-card-thumb">📣</div>
+            <div class="blog-card-body">
+              <span class="tag-label">Behavior</span>
+              <h3>Building a Reliable Recall</h3>
+              <p>A step-by-step approach to "come" that holds up even with
+              distractions in the park.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      © 2026 Sataphone. Built for WebDev mid-term.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
