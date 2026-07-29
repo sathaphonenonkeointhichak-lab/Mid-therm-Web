@@ -1,3 +1,7 @@
+## Mid-term
+- **Tên MH:** Thiết kế và phát triển ứng dụng web
+- **Họ và Tên GV:** Ma Ngân Giang
+
 ## Student Info
 - **Name:** Nonkeointhichak Sathaphone
 - **Student ID:** 2400009313
@@ -9,8 +13,8 @@ This project has 3 pages sharing one consistent design system (warm paper tones,
 3. **`booking.html`** — Dog Training Booking: a landing page to book a dog-training session, with tiered service packages.
 
 ## Design
-- 🎨 **Figma (View only):** [PASTE YOUR FIGMA "VIEWER" SHARE LINK HERE]
-- 🌐 **Live Demo:** [PASTE YOUR GITHUB PAGES / VERCEL / NETLIFY LINK HERE]
+- **Figma (View only):** [PASTE YOUR FIGMA "VIEWER" SHARE LINK HERE]
+- **Live Demo:** [PASTE YOUR GITHUB PAGES / VERCEL / NETLIFY LINK HERE]
 
 ## Project Structure
 ```
