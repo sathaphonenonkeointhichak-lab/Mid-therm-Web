@@ -15,12 +15,3 @@ This project has 3 pages sharing one consistent design system (warm paper tones,
 ## Design
 - **Figma (View only):** [PASTE YOUR FIGMA "VIEWER" SHARE LINK HERE]
 - **Live Demo:** [PASTE YOUR GITHUB PAGES / VERCEL / NETLIFY LINK HERE]
-
-## Project Structure
-```
-├── index.html      # Page 1 – Personal Portfolio
-├── blog.html        # Page 2 – Dog Training Blog
-├── booking.html      # Page 3 – Booking
-├── style.css       # Shared design tokens + styles for all pages
-├── script.js        # Shared interactivity (nav, filters, animations, form)
-└── README.md
